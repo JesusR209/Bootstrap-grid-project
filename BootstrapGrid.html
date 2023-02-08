@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,10 +11,11 @@
     <title>Email Template</title>
 </head>
 
-    <body class="body bg-warning">
-        <nav class="navbar navbar-dark sticky-top bg-warning flex-md-nowrap p-0">
-          <a class="navbar-brand text-center col-sm-3 col-md-2 mr-0" href="#">Welcome </a>
-          <input class="form-control form-control-dark w-100 text-center" type="text" placeholder="Search" aria-label="Search">
+    <body class="body bg-primary">
+        <nav class="navbar navbar-dark sticky-top bg-primary flex-md-nowrap p-0">
+            
+          <div class="welcome "><a class="navbar-brand text-center col-sm-3 col-md-2 mr-0" href="#">Welcome</a></div>
+        
           <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
               <a class="nav-link" href="#">Sign out</a>
@@ -23,81 +24,131 @@
         </nav>
     
         <div class="container-fluid">
+            
           <div class="row bg-dark blackbackground">
             <nav class="col-md-2 d-none d-md-block  sidebar">
               <div class="sidebar-sticky">
+                
                 <ul class="nav flex-column ">
-                  <li class="nav-item">
-                    <a class="nav-link active text-dark" href="#">
-                      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> -->
-                      Inbox
-                    </a>
-                  </li>
+                
                   <li class="nav-item ">
-                    <a class="nav-link text-light" href="#">
-                      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg> -->
-                      Tagged
+                    <div>
+                    <a class="nav-link inbox text-light" href="#">
+                      inbox<span> (3)</span>
                     </a>
+                </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">
-                      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> -->
-                      Important
-                    </a>
+                    <div>
+                        <a class="nav-link inbox text-light" href="#">
+                          Drafts
+                        </a>
+                    </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">
-                      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg> -->
-                      Sent Mail
-                    </a>
+                    <div>
+                        <a class="nav-link inbox text-light" href="#">
+                          Trash
+                        </a>
+                    </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">
-                      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> -->
-                      Drafts
-                    </a>
+                    <div>
+                        <a class="nav-link inbox text-light" href="#">
+                         Spam
+                        </a>
+                    </div>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="#">
-                      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg> -->
-                      Trash
-                    </a>
-                  </li>
-               
+                
               </div>
+              
             </nav>
+
+
+            
+            
+              
+              <div class="col-lg-4 col-md-4 mid-menu">
+                
+                <div class="col ">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control searchbar" placeholder="Search Mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">  
+                          <!-- <button class="btn btn-info" type="button"> -->
+                            <!-- <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
+                                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                            </svg>
+                         </button>
+                        </div>                         
+                    </div> 
+              </div>
+              <div class="col2 ">
+                <div class="card email-card w-100">
+                    <div class="card-body">
+                        <span class="date-time">Jan 24, 2023</span>
+                        <h5 class="card-title">Elon Musk</h5>
+                        <p class="card-text">Jesus you'll never believe it, they actually took my offer for twitter seriously LOL!! Gonna go make a random crypto coin worth money, let's have coffee soon.</p>
+                    </div>
+                </div>
+              <div class="col3 ">
+                <div class="card email-card picked w-100">
+                    <div class="card-body">
+                        <span class="date-time">Jan 29, 2023</span>
+                        <h5 class="card-title">Tom Voyager</h5>
+                        <p class="card-text">It has come to my attention that my Iphone 3GS can't update to IOS 16.9.3, apparently it is just to old, the clerk insulted me by making myself and just about everyone else in the store aware that my cell phone was older than all of his children</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>  
+            <div class="col4 "></div>
+            <div class="card email-card w-100">
+                <div class="card-body">
+                <span class="date-time">Mar 4th, 2023</span>
+                <h5 class="card-title">Best Buy</h5>
+                <p class="card-text">Dear Jesus, we regret to inform you that due to you being at fault for tossing your 80inch Sony 4k Ultra HD TV off of the 5th floor out of anger, we are no longer allowed to have you enter any Best Buy Premises</p>
+                <p>-Derek Lander</p>
+            </div>
+          </div>
+              
+        </div>
+        <div class="col-lg-6 col-md-6 email-detail">
+            <!-- <div class="to-from">
+                <p class="to">To: cohortstudent.231@gmail.com</p>
+                <p class="from">From: TomVoyager@Woofmail.com</p>
+            </div> -->
             <div class="container mt-6 mainmain ">
-                <h1 class="text-center mb-5 text-light">Email Application</h1>
+                <h1 class="text-center mb-5 text-light">Send E-Mail</h1>
                 <div class="row">
-                  <div class="col-md-3"></div>
-                  <div class="col-md-6">
+                  <!-- <div class="col-md-3"></div> -->
+                  <!-- <div class="col-md-6"> -->
                     <form>
                       <div class="form-group text-light">
-                        <label for="to">To</label>
+                        <label class="TSM"for="to">To</label>
                         <input type="email" class="form-control" id="to" placeholder="Enter email">
                       </div>
                       <div class="form-group text-light">
-                        <label for="subject">Subject</label>
+                        <label class="TSM"for="subject">Subject</label>
                         <input type="text" class="form-control" id="subject" placeholder="Enter subject">
                       </div>
                       <div class="form-group text-light">
-                        <label for="message">Message</label>
+                        <label class="TSM"for="message">Message</label>
                         <textarea class="form-control" id="message" rows="5"></textarea>
                       </div>
-                      <button type="submit" class="btn btn-primary">Send</button>
+                     
+                    
                     </form>
+                    <div class="compose"> <button type="submit" class="btn btn-primary">Compose</button></div>
                   </div>
                   <div class="col-md-3"></div>
                 </div>
               </div>
-            
  
               <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-bottom">
                 <div class="container">
                  
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+                  
                   <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
@@ -109,10 +160,15 @@
                       <li class="nav-item">
                         <a class="nav-link bottomNav" href="#">FAQ</a>
                       </li>
-                      <!-- <li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li> -->
+                     
                     </ul>
                   </div>
                 </div>
               </nav>
+</body>
+</html> 
+
+
+    
 </body>
 </html>
