@@ -5,6 +5,24 @@
   
    
 }
+
+.selected {
+    background-color: #0d6efd;
+    padding: 25px;
+  
+    font-size: 30px;
+}
+
+.compose {
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10%;
+  
+}
+
+.reply {
+    border-radius: 35px;
+   }
 .sidebar {
     padding-top: 1%;
 }
@@ -109,15 +127,15 @@
 }
 .email-card{
     margin-top:10px;
-    background-color: #44aedc;
+    background-color: #349dca;
     
   
 }
-.email-card:hover{
+/* .email-card:hover{
     background-color: rgb(157, 106, 180);
     cursor: pointer;
     border-color:white;
-}
+} */
 
 .email-detail{
     
